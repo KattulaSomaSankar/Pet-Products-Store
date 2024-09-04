@@ -1,10 +1,8 @@
 # Pet Products Store
+This is a simple and responsive single-page eCommerce website for pet products. The website includes a variety of pet products with a shopping cart feature, allowing users to add items to the cart and view the total price.
 ![Screenshot (66)](https://github.com/user-attachments/assets/fb8f6b33-e7ce-43a0-bff5-8108dcb82811)
 # Demo
 You can view a live demo here https://kattulasomasankar.github.io/Pet-Products-Store/
-
-
-This is a simple and responsive single-page eCommerce website for pet products. The website includes a variety of pet products with a shopping cart feature, allowing users to add items to the cart and view the total price.
 
 ## Features
 
