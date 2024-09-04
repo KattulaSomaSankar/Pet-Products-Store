@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Products Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Pet Products Store</h1>
+            <nav>
+                <ul id="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#cart" id="view-cart">View Cart (<span id="cart-count">0</span>)</a></li>
+                </ul>
+                <div id="menu-icon">&#9776;</div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h2>Find the Best Products for Your Pet</h2>
+            <p>Premium pet supplies delivered to your door</p>
+            <a href="#products" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <section id="products">
+        <div class="container">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <div class="product-card" data-name="Pet Food" data-price="25">
+                    <img src="C:\Users\somun\Desktop\Pet Products\food.jpg" alt="Pet Food">
+                    <h3>Pet Food</h3>
+                    <p>High-quality food for your furry friends.</p>
+                    <span>$25.00</span>
+                    <button class="btn add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-card" data-name="Pet Toy" data-price="15">
+                    <img src="C:\Users\somun\Desktop\Pet Products\toy.jpg" alt="Pet Toy">
+                    <h3>Pet Toy</h3>
+                    <p>Interactive toy for hours of fun.</p>
+                    <span>$15.00</span>
+                    <button class="btn add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-card" data-name="Pet Bed" data-price="40">
+                    <img src="C:\Users\somun\Desktop\Pet Products\bed.jpg" alt="Pet Bed">
+                    <h3>Pet Bed</h3>
+                    <p>Comfortable bed for your pets to relax.</p>
+                    <span>$40.00</span>
+                    <button class="btn add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-card" data-name="Pet Shampoo" data-price="12">
+                    <img src="C:\Users\somun\Desktop\Pet Products\shampoo.jpg" alt="Pet Shampoo">
+                    <h3>Pet Shampoo</h3>
+                    <p>Keep your pets clean and smelling fresh.</p>
+                    <span>$12.00</span>
+                    <button class="btn add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-card" data-name="Pet Leash" data-price="18">
+                    <img src="C:\Users\somun\Desktop\Pet Products\leash.jpg" alt="Pet Leash">
+                    <h3>Pet Leash</h3>
+                    <p>Durable and comfortable leash for daily walks.</p>
+                    <span>$18.00</span>
+                    <button class="btn add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-card" data-name="Pet Collar" data-price="10">
+                    <img src="C:\Users\somun\Desktop\Pet Products\collar.jpg" alt="Pet Collar">
+                    <h3>Pet Collar</h3>
+                    <p>Stylish collar for your pets.</p>
+                    <span>$10.00</span>
+                    <button class="btn add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cart">
+        <div class="container">
+            <h2>Your Cart</h2>
+            <div id="cart-items">
+                <p>Your cart is empty.</p>
+            </div>
+            <div id="cart-total">
+                <h3>Total: $<span id="total-amount">0</span></h3>
+            </div>
+        </div>
+    </section>
+    <section id="testimonials">
+        <div class="container">
+            <h2>Customer Reviews</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <p>"Fantastic products and great customer service!"</p>
+                    <h4>- Jane Doe</h4>
+                </div>
+                <div class="testimonial">
+                    <p>"My pets love their new toys. Highly recommend!"</p>
+                    <h4>- John Smith</h4>
+                </div>
+                <div class="testimonial">
+                    <p>"I'm impressed with the variety of products available. The prices are also very reasonable. My pets are happy, and so am I!"</p>
+                    <h4>- Sarah W.</h4>
+                </div>
+                <div class="testimonial">
+                    <p>"I love how easy it is to shop on this site. The pet collar I purchased is stylish and durable. Highly recommended!"</p>
+                    <h4>- Mark K.</h4>
+                </div>
+            </div>
+        </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Pet Products Store. All rights reserved.</p>
+            <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        </div>
+    </footer>
+</body>
+</html>
